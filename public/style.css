@@ -74,6 +74,23 @@ body {
 	order: -1;
 }
 
+.user-name {
+	font-size: 18px;
+	font-weight: bold;
+}
+
+#username {
+	background: #fbfbfb;
+	width: 60%;
+	height: 30px;
+	border: 2px solid #eee;
+	border-radius: 3px;
+	resize: none;
+	padding: 10px;
+	font-size: 16px;
+	color: #333;
+}
+
 .chat-form {
 	margin-top: 20px;
 	display: flex;

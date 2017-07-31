@@ -1,0 +1,22 @@
+{
+  "name": "chatapp",
+  "version": "1.0.0",
+  "description": "simple chat application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tsg1204/chatApp.git"
+  },
+  "keywords": [
+    "chatApp"
+  ],
+  "author": "TSG",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tsg1204/chatApp/issues"
+  },
+  "homepage": "https://github.com/tsg1204/chatApp#readme"
+}

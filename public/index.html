@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8>"
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Chat App</title>
+	<link type="text/css" rel="stylesheet" href="style.css" />	
+  <!--<script src="https://www.gstatic.com/firebasejs/4.2.0/firebase.js"></script>-->
+  <script src="https://cdn.firebase.com/js/client/2.4.2/firebase.js"></script>
+</head>
+<body>
+  <div class="chatbox">
+    <div class="chatlogs">
+      <div class="chat friend">
+        <!--<div class="user-photo"><img src="img/boy.png"></div>-->
+        <div class="user-name"></div>
+        <p class="chat-message">Hi!</p>
+      </div>
+      <div class="chat self">
+        <!--<div class="user-photo"><img src="img/girl.png"></div>-->
+        <div class="user-name"></div>
+        <p class="chat-message">How are you?</p>
+      </div> 
+    </div>    
+    <input id="username" type="text" placeholder="Name"><br/>
+    <div class="chat-form">
+      <textarea id="text" placeholder="Message"></textarea>
+      <button id="post">Post</button>
+    </div>
+  </div>
+ 
+  <script src="chatApp.js"></script>
+</body>
+</html>
